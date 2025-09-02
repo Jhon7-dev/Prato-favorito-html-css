@@ -1,0 +1,106 @@
+*{
+     margin:0px;
+     padding: 0px;
+}
+.section-banner-home{
+     display: flex;
+}
+.section-banner-home #imagem-anuncio img{
+      height: 50px;
+       
+}
+.header{
+     display: flex;
+
+}
+.menu{
+     display: flex;
+     gap: 20px;
+     background:greenyellow;
+     padding:10px ;
+    justify-content: center;
+     background: #ffffff; 
+    padding: 10px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+     background: #003366;
+
+}
+.banner_main{
+     display: flex;
+     gap: 20px;
+     justify-content: center;
+     background: #003366;
+     flex-wrap: wrap;
+     /* height: 600px; */
+     align-items: center;
+     background: linear-gradient(135deg, #003366, #2E8B9C);
+}
+.banner img {
+    max-width: 100%;
+    border-radius: 12px;
+    transition: transform 0.6s ease; /* suaviza o efeito */
+}
+.banner img:hover {
+    transform: scale(1.08);
+}
+
+.banner{
+     margin-top: 20px;
+     margin-right: 40px;
+     width: auto;
+     justify-content: center;
+     display: flex;
+     gap: 20px;
+    
+}
+.banner,.descricao{
+     flex: 1 1 400px;
+}
+p{
+     font-size: 20px;
+     color: white;
+     text-shadow: 2px 2px  black;
+
+}
+.img{
+    max-width: 100%;
+    height: auto;
+}
+.descricao{
+     padding: 30px;
+     margin: 20px;
+     flex-wrap: wrap;
+}
+.titulo_prato{
+     font-size: 54px;
+     text-shadow: 2px 2px 5px black;
+     color: white;
+}
+footer{
+     background: #003366;
+}
+.titulo_footer{
+     text-align: center;
+     color: aliceblue;
+     text-transform: uppercase;
+}
+a{
+
+
+}
+.links{
+     display: inline-block;
+    background: #2E8B9C;       
+    color: #ffffff;              
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;  
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+
+
+}
+ 
